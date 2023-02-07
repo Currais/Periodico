@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+
+	font-family: Arial;
+	
+  }
+
+  p.a { text-align-last: center ;}
+  
+ header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+  
+  
+  nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  height: 300px; 
+}
+	
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+body.b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+label {
+  display: flex;
+  margin-top: 1em;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+display: flex;
+  flex-grow: 1;
+  margin-left: 1em;
+}
+
+input[type="submit"] {
+  align-self: flex-end;
+  margin: 2em;
+}
+
+fieldset {
+  margin: 1em;
+}
+
+
+
+
